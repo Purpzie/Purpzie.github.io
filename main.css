@@ -29,14 +29,13 @@ body {
 	background-color: var(--background-color);
 	font-family: Alata, sans-serif;
 	font-size: 1.2em;
-	justify-content: center;
 }
 
 #center {
   display: flex;
 	align-items: center;
+	justify-content: center;
   flex-direction: column;
-  margin: auto;
 	animation: fadeIn 1s ease 0s;
 	position: absolute;
 	width: 100%;
@@ -72,6 +71,7 @@ h1 {
 
 p#description {
 	font-size: 1.2em;
+	text-align: center;
 }
 
 a.link {
