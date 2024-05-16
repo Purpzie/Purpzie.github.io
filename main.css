@@ -84,10 +84,6 @@ a.link {
 	margin: 0.75em;
 }
 
-a.link svg {
-	margin-top: 0.2em;
-}
-
 a.link:hover {
 	background-color: var(--button-hover-color);
 }
