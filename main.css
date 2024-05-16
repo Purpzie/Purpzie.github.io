@@ -35,7 +35,7 @@ body {
   display: flex;
 	align-items: center;
   flex-direction: column;
-  justify-content: center;
+  margin: auto;
 	animation: fadeIn 1s ease 0s;
 	position: absolute;
 	width: 100%;
@@ -46,6 +46,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 @keyframes fadeIn {
